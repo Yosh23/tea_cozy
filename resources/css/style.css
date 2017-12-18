@@ -32,6 +32,11 @@ a {
     color: seashell;
 }
 
+h2 h3 h4 {
+    margin: 0;
+    padding: 10px;
+}
+
 .main {
     padding-top: 69px;
     opacity: 0.9;
@@ -46,6 +51,22 @@ a {
     flex-wrap: wrap;
 }
 
+.flex-container-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    padding: 5px;
+}
+
+.item img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
 header .logo {
     height: 50px;
     padding-left:10px;
@@ -54,6 +75,13 @@ header .logo {
 #mission {
     height: 700px;
     background-image: url("../images/mission-background.jpg");
+    padding-top: 70px;
+}
+
+#store {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
     padding-top: 70px;
 }
 

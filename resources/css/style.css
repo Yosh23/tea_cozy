@@ -32,6 +32,13 @@ a {
     color: seashell;
 }
 
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
 
 .flex-container {
     display: flex;
@@ -42,4 +49,16 @@ a {
 header .logo {
     height: 50px;
     padding-left:10px;
+}
+
+#mission {
+    height: 700px;
+    background-image: url("../images/mission-background.jpg");
+    padding-top: 70px;
+}
+
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
 }
